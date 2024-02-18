@@ -1,0 +1,1 @@
+let e=!1;typeof window!="undefined"&&(e=window.localStorage.getItem("dark"));e==="__q_bool|1"?document.documentElement.setAttribute("dark",""):e==="__q_strn|auto"&&document.documentElement.setAttribute("auto","");
